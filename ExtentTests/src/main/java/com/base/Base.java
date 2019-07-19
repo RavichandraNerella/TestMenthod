@@ -13,7 +13,7 @@ public class Base {
 	
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sony\\Downloads\\chromedriver_win32 (5)\\chromedriver.exe");
 		driver = new ChromeDriver();
-		System.Out.println("Succesfully driver is intialised");
+		System.out.println("Succesfully driver is intialised");
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();
 		return driver;
