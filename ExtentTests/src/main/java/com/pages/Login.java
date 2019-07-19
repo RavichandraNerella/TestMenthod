@@ -23,8 +23,9 @@ public class Login extends Base {
 
 	
 	public boolean isImageLinkPresent(){
-		
+		System.out.println("is added to test the git status");
 		return imageLink.isDisplayed();
+		
 		
 	}
 }
